@@ -8,15 +8,21 @@ export default class CardPokemon extends Component {
         this.state = {value: ''};
     
         this.handleChange = this.handleChange.bind(this);
-        
-       
       }
-    
       handleChange(event) {
         this.setState({value: event.target.value});
       }
-     
-          //importar react, extender de componente
-        //fazer o javaFX dessa parte para retornar o html
+      createCard () {
+        card = `
+          <div class="pokemon-picture">
+            <img src="${pokemon.sprites.front_default}" alt="Sprite of ${pokemon.name}">
+          </div>
+          <div class="pokemon-info">
+              <h1 class="name">${pokemon.name}</h1>
+              <h3 class="weight">Weight: ${pokemon.weight  / 10}kg</h3>
+              <h3 class="height">Height: ${pokemon.height  / 10}m</h3>
+          </div>`;
+        return card;
+      }
   
   }

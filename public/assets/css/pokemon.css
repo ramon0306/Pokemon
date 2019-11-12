@@ -83,43 +83,6 @@ body {
   display: none;
   font-size: 1.5em;
 }
-.pokemon {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /*background-color: #f2f2f2;*/
-  background-color: #fff;
-  opacity: 1;
-  color: white; 
-}
-
-.pokemon .pokemon-picture {
-  width: 150px;
-  display: flex;
-  align-items: center;
-  padding: 15px;
-  border: 2px solid #FFC312;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 38px;
-  margin-bottom: 38px;
-}
-
-.pokemon .pokemon-picture img {
-  width: 100%;
-}
-
-
-.pokemon .pokemon-info {
-  width: 100%;
-  
-  flex: 2;
-}
-
-.pokemon-info {
-  
-}
 
 .pokemon {
   width: 90%;

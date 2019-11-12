@@ -34,6 +34,9 @@ export default class Pokemon extends Component {
           <CardPokemon 
           
           name={this.state.pokemon.name}
+          id={this.state.pokemon.id}
+          peso={this.state.pokemon.weight}
+
           >
 
             </CardPokemon>
