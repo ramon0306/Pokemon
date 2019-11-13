@@ -46,6 +46,7 @@ body {
   background-color: #00FFFF;
   font-family: 'Maven Pro', sans-serif;
 }
+
 .container {
   width: 100%;
   max-width: 800px;
@@ -107,9 +108,12 @@ body {
   margin-bottom: 38px;
 }
 
+
+
 .pokemon .pokemon-picture img {
   width: 100%;
 }
+
 
 
 .pokemon .pokemon-info {
@@ -126,18 +130,31 @@ body {
   padding: 1em;
 }
 
+img {
+  width: 25%;
+  height: 25%;
+}
 
 .pokemon-info .name,
-.pokemon-info .skill,
+.pokemon-info .abilities,
 .pokemon-info .weight,
-.pokemon-info .height  {
+.pokemon-info .height,
+.pokemon-info .species,
+.pokemon-info .types,
+.pokemon-info .moves,
+.pokemon-info .held,
+.pokemon-info .stats {
   width: 100%;
   padding: .5em .2em;
   font-size: 1.7em;
+  text-align:justify;
+  width: 100%;
+  
+  font-size: 1em;
+  font-weight: bold;
+  
 }
 .pokemon-info .name {
-
-
   font-size: 2.5em;
   text-align: center;
   color: #FFC312; 
@@ -152,19 +169,8 @@ body {
   margin: 0;
   text-transform: capitalize;
 }
-.pokemon-info .skill{
-  text-align: justify;
-  font-size: 1em;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.pokemon-info .weight,
-.pokemon-info .height {
-  width: 100%;
-  text-align: center;
-  font-size: 1em;
-  font-weight: bold;
-}
+
+
 
 .fade {
   animation: fadeEfect 4s;

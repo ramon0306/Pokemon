@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Main from '../main/Main';
-import Pokemon from '../pokemon/Pokemon';
+
 
 
 export default class App extends Component {
@@ -9,8 +9,8 @@ export default class App extends Component {
     return (
       <div>
        
-        <Main></Main>
-        <Pokemon></Pokemon>
+        <Main/>
+       
       </div>
     );
   }
