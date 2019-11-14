@@ -46,7 +46,7 @@ table {
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
 
 body {
-  background-color: #31e7f8;
+  background-color:#31e7f8;
   font-family: 'Maven Pro', sans-serif;
 }
 
@@ -111,14 +111,14 @@ body {
 }
 .text2{
   margin-left: 5%;
-  
   font-size: 1.2em;
   font-weight: bold;
 }
 .pokemon-picture img {
   width: 160%;
   margin-top: 7%;  
-  
+  /*border: 1px solid #8888bb;
+  border-radius: 7pt;*/
 
 }
 .pokemon-image2 img{
@@ -126,6 +126,8 @@ body {
   height: 190%;
   margin: 4px;
   padding: 5px;
+  /*border: 1px solid #8888bb;
+  border-radius: 7pt;*/
   
   
 }

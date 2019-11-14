@@ -10,7 +10,6 @@ export default class CardPokemon extends Component {
       <div>
         <div className="pokemon-picture">
           <label className="text">Masculino <img src={this.props.image2} /></label>
-          
           <img src={this.props.image} />
         </div>
         
@@ -29,9 +28,10 @@ export default class CardPokemon extends Component {
           </ul>
         </div>
 
-        <label className="text2">Feminino</label>
+        <label className="text2">Feminino </label>
           <div className="pokemon-image2">
-            <img src={this.props.image4} />
+            <img src={this.props.image4}/>
+            
           </div>
         
       </div>);
