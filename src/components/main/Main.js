@@ -10,9 +10,9 @@ export default class Main extends Component {
         name: "pikachu",
         number: -1,
         image: null,
-        image2:null,image3:null,image4:null,
-        habilidade:null,
-        indice:null,
+        image2: null,  image4: null,
+        habilidade: null,
+        indice: null,
         estatistica: null,
         movimento: null,
         tipo: null,
@@ -47,7 +47,6 @@ export default class Main extends Component {
         number: resultado.id,
         image: resultado.sprites.back_default,
         image2: resultado.sprites.front_default,
-        image3: resultado.sprites.back_shiny_female,
         image4: resultado.sprites.front_shiny,
         especies: resultado.species.name,
         movimento: resultado.moves.map(mov => mov.move.name).join(", "),
@@ -71,21 +70,21 @@ export default class Main extends Component {
         <form onSubmit={this.handleSubmit} action="" className="search">
           <input type="search" value={this.state.pokemon.name} onChange={this.handleChange} className="search-input" placeholder="Digite o nome ou numero do pokemon" />
           <button className="search-button">Buscar Pokemon</button>
-        </form>
+        </form>    
+     
 
         <CardPokemon
           name={this.state.pokemon.name}
           number={this.state.pokemon.number}
           image={this.state.pokemon.image}
           image2={this.state.pokemon.image2}
-          image3={this.state.pokemon.image3}
           image4={this.state.pokemon.image4}
           especies={this.state.pokemon.especies}
           indice={this.state.pokemon.indice}
           tipo={this.state.pokemon.tipo}
           movimento={this.state.pokemon.movimento}
           habilidade={this.state.pokemon.habilidade}
-          estatistica={this.state.pokemon.estatistica}   
+          estatistica={this.state.pokemon.estatistica}
           weight={this.state.pokemon.peso}
           height={this.state.pokemon.altura}
         ></CardPokemon>
